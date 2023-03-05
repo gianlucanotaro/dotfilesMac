@@ -1,0 +1,35 @@
+# changing window focus
+
+ctrl + alt + shift - j : yabai -m window --focus south
+ctrl + alt + shift - k : yabai -m window --focus north
+ctrl + alt + shift - h : yabai -m window --focus west
+ctrl + alt + shift - l : yabai -m window --focus east
+
+# moving windows 
+ctrl + alt + shift - u : yabai -m window --swap south
+ctrl + alt + shift - i : yabai -m window --swap north
+ctrl + alt + shift - y : yabai -m window --swap west
+ctrl + alt + shift - o : yabai -m window --swap east
+
+# resizing windows
+ctrl + alt + shift - n : yabai -m window --resize left:-50:0; \
+                         yabai -m window --resize right:-50:0
+
+ctrl + alt + shift - 0x2F: yabai -m window --resize left:50:0; \
+                          yabai -m window --resize right:50:0
+
+ctrl + alt + shift - m : yabai -m window --resize top:-50:0; \
+                         yabai -m window --resize bottom:-50:0 
+
+ctrl + alt + shift - 0x2B : yabai -m window --resize top:50:0; \
+                         yabai -m window --resize bottom:50:0
+
+
+
+# balancing windows
+ctrl + alt + shift - b : yabai -m space --balance
+
+
+# Desktops
+ctrl + alt + shift - 0x31 : yabai -m space --focus prev
+ctrl + alt + shift - 0x33 : yabai -m space --focus next
