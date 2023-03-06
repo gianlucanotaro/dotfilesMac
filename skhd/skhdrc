@@ -35,7 +35,6 @@ ctrl + alt + shift - 0x31 : yabai -m space --focus prev
 ctrl + alt + shift - 0x33 : yabai -m space --focus next
 
 # Window stacks
-
 ctrl + alt + shift + cmd - j : yabai -m window --stack south
 ctrl + alt + shift + cmd - k : yabai -m window --stack north
 ctrl + alt + shift + cmd - h : yabai -m window --stack west
@@ -44,6 +43,5 @@ ctrl + alt + shift + cmd - l : yabai -m window --stack east
 
 
 # cycle stacks
-
 ctrl + alt + shift + cmd - n : yabai -m window --focus stack.prev
 ctrl + alt + shift + cmd - m : yabai -m window --focus  stack.next
