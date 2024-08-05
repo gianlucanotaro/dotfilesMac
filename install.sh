@@ -39,3 +39,9 @@ brew services start skhd
 
 echo "skhd installation complete."
 
+# Create a symlink for sketchybarrc in the appropriate folder
+echo "Creating symlink for sketchybarrc in ~/.config/sketchybar/"
+mkdir -p ~/.config/sketchybar
+ln -sf "$(pwd)/sketchybar/sketchybarrc" ~/.config/sketchybar/sketchybarrc
+
+echo "sketchybarrc configuration symlink created successfully."
